@@ -11,7 +11,9 @@
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "quadrogod/abc-cms": "*"
+        "quadrogod/abc-cms": "*",
+        "quadrogod/abc-pages": "*",
+        "quadrogod/abc-shop": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -33,6 +35,10 @@
         {
             "type": "path",
             "url": "packages/Quadrogod/Abc/Pages"
+        },
+        {
+            "type": "path",
+            "url": "packages/Quadrogod/Abc/Shop"
         }
     ],
     "autoload": {
